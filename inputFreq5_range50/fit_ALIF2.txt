@@ -1,0 +1,1391 @@
+2021-04-21 13:12:00.863663: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+Build finished in 0:00:01.                                                      
+Simulation finished in 0:00:01.                                                 
+[32m[I 2021-04-21 13:12:04,353][0m A new study created in memory with name: no-name-72ba7fbb-0d26-4faf-abcc-e8efa4db062c[0m
+2021-04-21 13:12:04.588596: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:12:04.589599: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2021-04-21 13:12:05.619555: E tensorflow/stream_executor/cuda/cuda_driver.cc:328] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2021-04-21 13:12:05.619621: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:169] retrieving CUDA diagnostic information for host: comparch-t640
+2021-04-21 13:12:05.619631: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:176] hostname: comparch-t640
+2021-04-21 13:12:05.619803: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:200] libcuda reported version is: 450.66.0
+2021-04-21 13:12:05.619840: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:204] kernel reported version is: 450.66.0
+2021-04-21 13:12:05.619847: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:310] kernel version seems to match DSO: 450.66.0
+2021-04-21 13:12:05.620168: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-04-21 13:12:05.622114: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:12:05.632069: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+2021-04-21 13:12:05.655979: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2100000000 Hz
+maxFreq at 10nA: 73.0
+2021-04-21 13:12:23.284306: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:12:30.018345: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.03999 4.19
+[32m[I 2021-04-21 13:12:35,269][0m Trial 0 finished with values: [0.03999, 4.19] with parameters: {'Vahp': -58.0, 'Vth': -38.5, 'Vmax': 18.5, 't_ref': 11.0, 'R': 0.30000000000000004, 'tau_m': 243.5, 'R_adp': 0.8, 'tau_w': 215.0, 'a': 76.5, 'rate_low': 28.5, 'rate_high': 31.5}.[0m
+2021-04-21 13:12:35.622361: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 224.0
+2021-04-21 13:12:52.626543: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:12:59.130166: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.001 18.32
+[32m[I 2021-04-21 13:13:04,506][0m Trial 1 finished with values: [0.001, 18.32] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 11.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 422.5, 'R_adp': 1.0, 'tau_w': 28.5, 'a': 276.0, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 13:13:04.831480: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 143.0
+2021-04-21 13:13:22.210976: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:13:28.361931: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 2.87881 30.01
+[32m[I 2021-04-21 13:13:34,138][0m Trial 2 finished with values: [2.87881, 30.01] with parameters: {'Vahp': -40.0, 'Vth': -40.0, 'Vmax': 30.5, 't_ref': 5.5, 'R': 0.5, 'tau_m': 36.5, 'R_adp': 0.2, 'tau_w': 258.5, 'a': 268.0, 'rate_low': 43.5, 'rate_high': 49.5}.[0m
+2021-04-21 13:13:34.445734: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:13:52.184673: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:13:58.619636: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:14:04,389][0m Trial 3 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -21.5, 'Vth': -29.5, 'Vmax': 36.5, 't_ref': 7.5, 'R': 0.8, 'tau_m': 109.5, 'R_adp': 0.30000000000000004, 'tau_w': 451.5, 'a': 173.0, 'rate_low': 25.0, 'rate_high': 31.5}.[0m
+2021-04-21 13:14:04.913177: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 13:14:22.909462: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:14:29.421428: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:14:35,349][0m Trial 4 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.0, 'Vth': -39.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 183.5, 'R_adp': 0.4, 'tau_w': 306.0, 'a': 229.5, 'rate_low': 48.0, 'rate_high': 49.0}.[0m
+2021-04-21 13:14:35.712549: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:14:53.468288: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:14:59.934698: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:15:05,730][0m Trial 5 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.0, 'Vth': -56.5, 'Vmax': 39.5, 't_ref': 7.0, 'R': 0.5, 'tau_m': 389.5, 'R_adp': 0.4, 'tau_w': 271.0, 'a': 189.5, 'rate_low': 8.5, 'rate_high': 44.0}.[0m
+2021-04-21 13:15:06.095742: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:15:24.071117: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:15:30.655993: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:15:36,532][0m Trial 6 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -56.0, 'Vmax': 31.0, 't_ref': 11.0, 'R': 0.7000000000000001, 'tau_m': 42.5, 'R_adp': 1.0, 'tau_w': 213.5, 'a': 58.0, 'rate_low': 31.0, 'rate_high': 45.5}.[0m
+2021-04-21 13:15:36.970366: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 194.0
+2021-04-21 13:15:55.509250: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:16:02.158302: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.03233 3.09
+[32m[I 2021-04-21 13:16:08,102][0m Trial 7 finished with values: [0.03233, 3.09] with parameters: {'Vahp': -39.0, 'Vth': -26.0, 'Vmax': 34.5, 't_ref': 1.5, 'R': 0.4, 'tau_m': 163.5, 'R_adp': 0.9, 'tau_w': 106.0, 'a': 186.0, 'rate_low': 18.5, 'rate_high': 22.0}.[0m
+2021-04-21 13:16:08.553954: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 79.0
+2021-04-21 13:16:27.506289: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:16:34.131367: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.44458 7.04
+[32m[I 2021-04-21 13:16:39,998][0m Trial 8 finished with values: [0.44458, 7.04] with parameters: {'Vahp': -46.0, 'Vth': -28.5, 'Vmax': 24.5, 't_ref': 10.0, 'R': 0.6, 'tau_m': 380.0, 'R_adp': 0.7000000000000001, 'tau_w': 287.0, 'a': 237.0, 'rate_low': 35.5, 'rate_high': 43.0}.[0m
+2021-04-21 13:16:40.376232: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:16:58.894554: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:17:06.180750: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:17:11,941][0m Trial 9 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -48.0, 'Vth': -52.5, 'Vmax': 40.0, 't_ref': 17.5, 'R': 0.5, 'tau_m': 180.0, 'R_adp': 0.30000000000000004, 'tau_w': 391.0, 'a': 490.0, 'rate_low': 41.5, 'rate_high': 44.5}.[0m
+2021-04-21 13:17:12.336471: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 67.0
+2021-04-21 13:17:30.794786: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:17:37.645320: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.34097 4.0
+[32m[I 2021-04-21 13:17:44,319][0m Trial 10 finished with values: [0.34097, 4.0] with parameters: {'Vahp': -27.0, 'Vth': -24.5, 'Vmax': 21.0, 't_ref': 13.5, 'R': 0.7000000000000001, 'tau_m': 428.5, 'R_adp': 0.2, 'tau_w': 204.0, 'a': 442.0, 'rate_low': 6.5, 'rate_high': 29.0}.[0m
+2021-04-21 13:17:44.752922: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 13:18:03.552145: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:18:10.612546: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:18:16,769][0m Trial 11 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -34.0, 'Vmax': 29.0, 't_ref': 8.0, 'R': 0.30000000000000004, 'tau_m': 177.5, 'R_adp': 0.8, 'tau_w': 474.0, 'a': 171.0, 'rate_low': 26.0, 'rate_high': 29.5}.[0m
+2021-04-21 13:18:17.198284: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:18:36.332090: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:18:43.573004: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:18:49,578][0m Trial 12 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 20.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 494.0, 'a': 345.0, 'rate_low': 22.5, 'rate_high': 40.0}.[0m
+2021-04-21 13:18:49.974686: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:19:09.041554: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:19:16.554730: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:19:22,784][0m Trial 13 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -27.0, 'Vth': -32.0, 'Vmax': 22.0, 't_ref': 3.0, 'R': 0.9, 'tau_m': 16.0, 'R_adp': 1.0, 'tau_w': 449.5, 'a': 487.5, 'rate_low': 41.0, 'rate_high': 41.0}.[0m
+2021-04-21 13:19:23.160244: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:19:41.885161: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:19:48.904181: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:19:55,479][0m Trial 14 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.0, 'Vmax': 36.0, 't_ref': 19.0, 'R': 1.0, 'tau_m': 146.0, 'R_adp': 0.9, 'tau_w': 228.0, 'a': 35.0, 'rate_low': 28.0, 'rate_high': 42.5}.[0m
+2021-04-21 13:19:55.887033: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 998.0
+2021-04-21 13:20:15.081875: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:20:22.516484: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:20:29,032][0m Trial 15 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -35.0, 'Vmax': 37.0, 't_ref': 4.0, 'R': 0.2, 'tau_m': 232.5, 'R_adp': 0.2, 'tau_w': 28.5, 'a': 331.5, 'rate_low': 21.0, 'rate_high': 45.0}.[0m
+2021-04-21 13:20:29.446530: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:20:49.188794: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:20:56.349400: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:21:02,938][0m Trial 16 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -58.0, 'Vmax': 38.5, 't_ref': 4.0, 'R': 0.6, 'tau_m': 449.5, 'R_adp': 0.6, 'tau_w': 146.0, 'a': 218.0, 'rate_low': 6.5, 'rate_high': 8.5}.[0m
+2021-04-21 13:21:03.326959: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 334.0
+2021-04-21 13:21:22.780908: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:21:30.305674: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00183 11.6
+[32m[I 2021-04-21 13:21:36,887][0m Trial 17 finished with values: [0.00183, 11.6] with parameters: {'Vahp': -55.5, 'Vth': -29.5, 'Vmax': 31.0, 't_ref': 1.5, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.8, 'tau_w': 120.0, 'a': 56.0, 'rate_low': 11.5, 'rate_high': 31.5}.[0m
+2021-04-21 13:21:37.360364: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 64.0
+2021-04-21 13:21:56.754872: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:22:04.130030: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.99886 3.68
+[32m[I 2021-04-21 13:22:10,836][0m Trial 18 finished with values: [0.99886, 3.68] with parameters: {'Vahp': -57.5, 'Vth': -56.0, 'Vmax': 11.5, 't_ref': 11.5, 'R': 0.2, 'tau_m': 152.5, 'R_adp': 0.4, 'tau_w': 403.5, 'a': 231.5, 'rate_low': 5.5, 'rate_high': 26.5}.[0m
+2021-04-21 13:22:11.296833: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 46.0
+2021-04-21 13:22:31.135354: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:22:38.767725: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.16618 0.81
+[32m[I 2021-04-21 13:22:45,620][0m Trial 19 finished with values: [0.16618, 0.81] with parameters: {'Vahp': -34.0, 'Vth': -21.5, 'Vmax': 14.5, 't_ref': 19.0, 'R': 0.1, 'tau_m': 58.5, 'R_adp': 0.4, 'tau_w': 136.5, 'a': 320.0, 'rate_low': 18.0, 'rate_high': 28.0}.[0m
+2021-04-21 13:22:46.012514: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 997.0
+2021-04-21 13:23:05.952641: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:23:13.702789: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:23:20,656][0m Trial 20 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.5, 'Vth': -39.0, 'Vmax': 26.5, 't_ref': 9.5, 'R': 0.1, 'tau_m': 179.5, 'R_adp': 0.1, 'tau_w': 288.5, 'a': 363.5, 'rate_low': 2.0, 'rate_high': 28.5}.[0m
+2021-04-21 13:23:21.088585: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:23:41.500301: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:23:49.170568: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:23:56,183][0m Trial 21 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -21.5, 'Vth': -33.5, 'Vmax': 14.5, 't_ref': 3.5, 'R': 0.6, 'tau_m': 89.0, 'R_adp': 0.6, 'tau_w': 213.0, 'a': 192.0, 'rate_low': 35.5, 'rate_high': 46.0}.[0m
+2021-04-21 13:23:56.593911: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:24:17.084985: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:24:24.840968: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:24:31,556][0m Trial 22 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -57.0, 'Vmax': 26.0, 't_ref': 13.5, 'R': 0.6, 'tau_m': 168.0, 'R_adp': 0.1, 'tau_w': 125.0, 'a': 269.0, 'rate_low': 29.5, 'rate_high': 33.0}.[0m
+2021-04-21 13:24:31.932008: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:24:52.198594: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:25:00.058784: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:25:06,971][0m Trial 23 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -38.0, 'Vth': -56.0, 'Vmax': 22.0, 't_ref': 9.0, 'R': 0.7000000000000001, 'tau_m': 450.0, 'R_adp': 0.2, 'tau_w': 376.5, 'a': 49.0, 'rate_low': 39.0, 'rate_high': 47.0}.[0m
+2021-04-21 13:25:07.397766: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:25:27.767989: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:25:36.058309: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:25:42,573][0m Trial 24 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -25.0, 'Vmax': 24.0, 't_ref': 15.0, 'R': 0.6, 'tau_m': 4.5, 'R_adp': 0.2, 'tau_w': 222.0, 'a': 466.0, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 13:25:42.956889: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 19.0
+2021-04-21 13:26:03.462215: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:26:11.775364: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.10954 0.24
+[32m[I 2021-04-21 13:26:18,523][0m Trial 25 finished with values: [0.10954, 0.24] with parameters: {'Vahp': -28.0, 'Vth': -23.5, 'Vmax': 24.5, 't_ref': 10.0, 'R': 0.1, 'tau_m': 265.5, 'R_adp': 0.5, 'tau_w': 474.5, 'a': 307.5, 'rate_low': 49.0, 'rate_high': 49.0}.[0m
+2021-04-21 13:26:18.925046: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 13:26:39.077598: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:26:47.568477: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00307 13.87
+[32m[I 2021-04-21 13:26:54,465][0m Trial 26 finished with values: [0.00307, 13.87] with parameters: {'Vahp': -51.0, 'Vth': -34.5, 'Vmax': 15.0, 't_ref': 14.0, 'R': 0.5, 'tau_m': 286.5, 'R_adp': 0.5, 'tau_w': 54.5, 'a': 251.5, 'rate_low': 45.5, 'rate_high': 50.0}.[0m
+2021-04-21 13:26:54.848591: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 197.0
+2021-04-21 13:27:15.759989: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:27:24.536772: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.0033 8.39
+[32m[I 2021-04-21 13:27:31,287][0m Trial 27 finished with values: [0.0033, 8.39] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.30000000000000004, 'tau_w': 152.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 29.0}.[0m
+2021-04-21 13:27:31.699665: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:27:52.693513: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:28:01.715838: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:28:08,646][0m Trial 28 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 11.5, 't_ref': 13.5, 'R': 0.9, 'tau_m': 197.0, 'R_adp': 0.7000000000000001, 'tau_w': 254.0, 'a': 18.5, 'rate_low': 28.0, 'rate_high': 48.5}.[0m
+2021-04-21 13:28:09.009692: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 127.0
+2021-04-21 13:28:29.206601: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:28:38.954809: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.02686 1.57
+[32m[I 2021-04-21 13:28:46,105][0m Trial 29 finished with values: [0.02686, 1.57] with parameters: {'Vahp': -43.5, 'Vth': -37.5, 'Vmax': 18.0, 't_ref': 3.0, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.2, 'tau_w': 70.0, 'a': 316.0, 'rate_low': 16.5, 'rate_high': 27.0}.[0m
+2021-04-21 13:28:46.489575: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 13:29:06.876425: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:29:16.861827: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.04976 4.8
+[32m[I 2021-04-21 13:29:24,114][0m Trial 30 finished with values: [0.04976, 4.8] with parameters: {'Vahp': -37.0, 'Vth': -26.0, 'Vmax': 20.5, 't_ref': 14.0, 'R': 0.30000000000000004, 'tau_m': 309.0, 'R_adp': 0.4, 'tau_w': 344.5, 'a': 68.5, 'rate_low': 27.0, 'rate_high': 28.5}.[0m
+2021-04-21 13:29:24.488254: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 43.0
+2021-04-21 13:29:45.456794: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:29:55.580347: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.13216 0.76
+[32m[I 2021-04-21 13:30:02,813][0m Trial 31 finished with values: [0.13216, 0.76] with parameters: {'Vahp': -47.0, 'Vth': -34.0, 'Vmax': 11.0, 't_ref': 2.5, 'R': 0.4, 'tau_m': 121.0, 'R_adp': 0.7000000000000001, 'tau_w': 379.5, 'a': 467.0, 'rate_low': 8.0, 'rate_high': 11.5}.[0m
+2021-04-21 13:30:03.184861: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 59.0
+2021-04-21 13:30:23.647623: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:30:33.414110: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.17049 11.63
+[32m[I 2021-04-21 13:30:40,993][0m Trial 32 finished with values: [0.17049, 11.63] with parameters: {'Vahp': -46.0, 'Vth': -43.5, 'Vmax': 40.0, 't_ref': 15.5, 'R': 0.7000000000000001, 'tau_m': 151.5, 'R_adp': 0.2, 'tau_w': 136.5, 'a': 382.0, 'rate_low': 15.5, 'rate_high': 44.0}.[0m
+2021-04-21 13:30:41.401626: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:31:02.002895: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:31:12.071683: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:31:20,093][0m Trial 33 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -44.5, 'Vmax': 12.0, 't_ref': 11.0, 'R': 0.6, 'tau_m': 88.5, 'R_adp': 0.8, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 34.5, 'rate_high': 47.0}.[0m
+2021-04-21 13:31:20.531994: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:31:41.134902: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:31:50.781727: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12401 1000.1
+[32m[I 2021-04-21 13:31:59,052][0m Trial 34 finished with values: [0.12401, 1000.1] with parameters: {'Vahp': -30.0, 'Vth': -58.5, 'Vmax': 20.5, 't_ref': 7.5, 'R': 1.0, 'tau_m': 315.5, 'R_adp': 0.8, 'tau_w': 182.0, 'a': 219.5, 'rate_low': 43.5, 'rate_high': 46.5}.[0m
+2021-04-21 13:31:59.472751: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 334.0
+2021-04-21 13:32:20.602110: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:32:30.568933: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00286 52.6
+[32m[I 2021-04-21 13:32:39,117][0m Trial 35 finished with values: [0.00286, 52.6] with parameters: {'Vahp': -23.5, 'Vth': -21.5, 'Vmax': 20.5, 't_ref': 2.0, 'R': 0.5, 'tau_m': 121.0, 'R_adp': 0.1, 'tau_w': 51.0, 'a': 401.0, 'rate_low': 36.5, 'rate_high': 45.5}.[0m
+2021-04-21 13:32:39.531089: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 13:33:00.817054: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:33:10.827467: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00322 21.42
+[32m[I 2021-04-21 13:33:19,437][0m Trial 36 finished with values: [0.00322, 21.42] with parameters: {'Vahp': -54.0, 'Vth': -30.0, 'Vmax': 31.0, 't_ref': 14.5, 'R': 0.7000000000000001, 'tau_m': 126.0, 'R_adp': 0.5, 'tau_w': 2.5, 'a': 426.5, 'rate_low': 40.0, 'rate_high': 40.0}.[0m
+2021-04-21 13:33:19.900939: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:33:41.287162: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:33:51.289281: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:34:00,164][0m Trial 37 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 39.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 41.0, 'R_adp': 0.5, 'tau_w': 42.0, 'a': 49.0, 'rate_low': 25.0, 'rate_high': 36.5}.[0m
+2021-04-21 13:34:00.605794: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:34:21.803720: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:34:31.854644: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:34:41,279][0m Trial 38 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.0, 'Vth': -40.0, 'Vmax': 35.0, 't_ref': 3.0, 'R': 0.9, 'tau_m': 232.0, 'R_adp': 1.0, 'tau_w': 446.0, 'a': 63.5, 'rate_low': 48.5, 'rate_high': 50.0}.[0m
+2021-04-21 13:34:41.715855: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 13:35:03.365215: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:35:13.358457: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:35:22,504][0m Trial 39 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.5, 'Vmax': 18.0, 't_ref': 17.5, 'R': 0.4, 'tau_m': 384.0, 'R_adp': 0.5, 'tau_w': 478.5, 'a': 53.0, 'rate_low': 29.5, 'rate_high': 47.0}.[0m
+2021-04-21 13:35:22.950691: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 59.0
+2021-04-21 13:35:44.248138: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:35:54.920387: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.11884 11.81
+[32m[I 2021-04-21 13:36:04,350][0m Trial 40 finished with values: [0.11884, 11.81] with parameters: {'Vahp': -33.5, 'Vth': -28.5, 'Vmax': 16.0, 't_ref': 15.5, 'R': 0.8, 'tau_m': 221.0, 'R_adp': 0.1, 'tau_w': 405.5, 'a': 296.5, 'rate_low': 22.5, 'rate_high': 28.0}.[0m
+2021-04-21 13:36:04.776078: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:36:26.491571: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:36:36.758005: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:36:46,475][0m Trial 41 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -22.0, 'Vth': -56.0, 'Vmax': 30.5, 't_ref': 0.5, 'R': 0.6, 'tau_m': 138.0, 'R_adp': 0.7000000000000001, 'tau_w': 345.5, 'a': 254.5, 'rate_low': 15.5, 'rate_high': 22.0}.[0m
+2021-04-21 13:36:46.887676: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 48.0
+2021-04-21 13:37:08.101546: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:37:17.984049: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.03594 16.84
+[32m[I 2021-04-21 13:37:27,958][0m Trial 42 finished with values: [0.03594, 16.84] with parameters: {'Vahp': -50.0, 'Vth': -49.5, 'Vmax': 32.0, 't_ref': 19.5, 'R': 1.0, 'tau_m': 42.0, 'R_adp': 0.6, 'tau_w': 168.5, 'a': 29.5, 'rate_low': 14.0, 'rate_high': 44.0}.[0m
+2021-04-21 13:37:28.398551: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 47.0
+2021-04-21 13:37:49.878773: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:38:00.058501: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.06301 2.13
+[32m[I 2021-04-21 13:38:10,025][0m Trial 43 finished with values: [0.06301, 2.13] with parameters: {'Vahp': -59.0, 'Vth': -40.0, 'Vmax': 34.0, 't_ref': 7.0, 'R': 0.1, 'tau_m': 272.5, 'R_adp': 0.7000000000000001, 'tau_w': 148.0, 'a': 146.5, 'rate_low': 46.0, 'rate_high': 48.0}.[0m
+2021-04-21 13:38:10.439172: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:38:32.323254: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:38:42.339662: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:38:52,114][0m Trial 44 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -55.0, 'Vmax': 18.5, 't_ref': 10.5, 'R': 0.6, 'tau_m': 393.0, 'R_adp': 0.30000000000000004, 'tau_w': 456.0, 'a': 152.5, 'rate_low': 12.0, 'rate_high': 38.5}.[0m
+2021-04-21 13:38:52.689242: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 72.0
+2021-04-21 13:39:14.342817: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:39:24.529670: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.22133 1.3
+[32m[I 2021-04-21 13:39:34,370][0m Trial 45 finished with values: [0.22133, 1.3] with parameters: {'Vahp': -51.0, 'Vth': -42.5, 'Vmax': 25.5, 't_ref': 12.5, 'R': 0.2, 'tau_m': 164.5, 'R_adp': 0.5, 'tau_w': 456.0, 'a': 38.5, 'rate_low': 0.5, 'rate_high': 14.5}.[0m
+2021-04-21 13:39:35.163514: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 152.0
+2021-04-21 13:39:57.124303: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:40:07.178490: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 6.84797 17.02
+[32m[I 2021-04-21 13:40:17,031][0m Trial 46 finished with values: [6.84797, 17.02] with parameters: {'Vahp': -33.0, 'Vth': -22.5, 'Vmax': 30.0, 't_ref': 4.0, 'R': 0.8, 'tau_m': 19.0, 'R_adp': 0.7000000000000001, 'tau_w': 180.0, 'a': 450.5, 'rate_low': 25.5, 'rate_high': 38.5}.[0m
+2021-04-21 13:40:17.870701: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 77.0
+2021-04-21 13:40:39.585951: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:40:49.720891: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 1.09536 4.69
+[32m[I 2021-04-21 13:40:59,653][0m Trial 47 finished with values: [1.09536, 4.69] with parameters: {'Vahp': -55.0, 'Vth': -28.5, 'Vmax': 39.0, 't_ref': 11.5, 'R': 0.9, 'tau_m': 155.5, 'R_adp': 1.0, 'tau_w': 395.5, 'a': 135.5, 'rate_low': 2.5, 'rate_high': 19.5}.[0m
+2021-04-21 13:41:00.229264: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 250.0
+2021-04-21 13:41:22.443218: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:41:32.518683: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00534 22.2
+[32m[I 2021-04-21 13:41:42,449][0m Trial 48 finished with values: [0.00534, 22.2] with parameters: {'Vahp': -40.0, 'Vth': -26.0, 'Vmax': 34.5, 't_ref': 3.0, 'R': 0.9, 'tau_m': 477.5, 'R_adp': 0.8, 'tau_w': 450.0, 'a': 20.5, 'rate_low': 41.5, 'rate_high': 45.5}.[0m
+2021-04-21 13:41:43.015032: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 69.0
+2021-04-21 13:42:05.273851: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:42:15.179794: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 1.28896 7.53
+[32m[I 2021-04-21 13:42:24,956][0m Trial 49 finished with values: [1.28896, 7.53] with parameters: {'Vahp': -56.5, 'Vth': -54.0, 'Vmax': 20.5, 't_ref': 12.5, 'R': 0.7000000000000001, 'tau_m': 273.5, 'R_adp': 1.0, 'tau_w': 369.5, 'a': 303.5, 'rate_low': 20.0, 'rate_high': 45.0}.[0m
+2021-04-21 13:42:25.522742: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 64.0
+2021-04-21 13:42:48.803604: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:42:59.074328: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.19358 5.68
+[32m[I 2021-04-21 13:43:09,274][0m Trial 50 finished with values: [0.19358, 5.68] with parameters: {'Vahp': -51.0, 'Vth': -29.5, 'Vmax': 15.0, 't_ref': 14.0, 'R': 0.8, 'tau_m': 286.5, 'R_adp': 0.5, 'tau_w': 451.5, 'a': 251.5, 'rate_low': 25.0, 'rate_high': 50.0}.[0m
+2021-04-21 13:43:09.816275: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:43:33.540535: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:43:43.662096: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:43:53,588][0m Trial 51 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -25.0, 'Vmax': 31.0, 't_ref': 14.5, 'R': 0.7000000000000001, 'tau_m': 126.0, 'R_adp': 0.5, 'tau_w': 222.0, 'a': 426.5, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 13:43:54.098743: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 12.0
+2021-04-21 13:44:18.005964: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:44:28.260918: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.11344 0.26
+[32m[I 2021-04-21 13:44:38,830][0m Trial 52 finished with values: [0.11344, 0.26] with parameters: {'Vahp': -56.5, 'Vth': -37.5, 'Vmax': 20.5, 't_ref': 3.0, 'R': 0.1, 'tau_m': 273.5, 'R_adp': 1.0, 'tau_w': 369.5, 'a': 303.5, 'rate_low': 16.5, 'rate_high': 36.5}.[0m
+2021-04-21 13:44:39.361281: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:45:03.752130: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:45:14.476696: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:45:24,773][0m Trial 53 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -47.5, 'Vmax': 39.0, 't_ref': 13.5, 'R': 0.8, 'tau_m': 197.0, 'R_adp': 0.7000000000000001, 'tau_w': 42.0, 'a': 49.0, 'rate_low': 28.0, 'rate_high': 36.5}.[0m
+2021-04-21 13:45:25.296034: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:45:49.842295: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:46:00.784129: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:46:11,661][0m Trial 54 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -44.5, 'Vmax': 12.0, 't_ref': 11.0, 'R': 0.6, 'tau_m': 88.5, 'R_adp': 0.8, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 34.5, 'rate_high': 47.0}.[0m
+2021-04-21 13:46:12.156456: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 84.0
+2021-04-21 13:46:36.684821: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:46:47.978052: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.01244 14.77
+[32m[I 2021-04-21 13:46:59,127][0m Trial 55 finished with values: [0.01244, 14.77] with parameters: {'Vahp': -25.5, 'Vth': -22.5, 'Vmax': 11.5, 't_ref': 10.5, 'R': 0.6, 'tau_m': 197.0, 'R_adp': 0.7000000000000001, 'tau_w': 254.0, 'a': 18.5, 'rate_low': 12.0, 'rate_high': 48.5}.[0m
+2021-04-21 13:46:59.592924: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:47:24.767844: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:47:36.264606: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:47:47,393][0m Trial 56 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.5, 'Vth': -39.0, 'Vmax': 16.0, 't_ref': 15.5, 'R': 0.8, 'tau_m': 179.5, 'R_adp': 0.1, 'tau_w': 405.5, 'a': 296.5, 'rate_low': 22.5, 'rate_high': 28.5}.[0m
+2021-04-21 13:47:47.907457: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:48:12.527807: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:48:24.094733: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:48:35,288][0m Trial 57 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -51.0, 'Vth': -56.0, 'Vmax': 15.0, 't_ref': 11.5, 'R': 0.2, 'tau_m': 286.5, 'R_adp': 0.5, 'tau_w': 54.5, 'a': 231.5, 'rate_low': 45.5, 'rate_high': 26.5}.[0m
+2021-04-21 13:48:35.793929: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 167.0
+2021-04-21 13:49:00.911096: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:49:12.809604: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00188 27.97
+[32m[I 2021-04-21 13:49:23,903][0m Trial 58 finished with values: [0.00188, 27.97] with parameters: {'Vahp': -45.5, 'Vth': -43.5, 'Vmax': 20.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 54.5, 'a': 251.5, 'rate_low': 45.5, 'rate_high': 40.0}.[0m
+2021-04-21 13:49:24.440617: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:49:49.695513: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:50:01.908780: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:50:13,244][0m Trial 59 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -21.5, 'Vth': -33.5, 'Vmax': 14.5, 't_ref': 3.5, 'R': 0.6, 'tau_m': 89.0, 'R_adp': 0.30000000000000004, 'tau_w': 456.0, 'a': 192.0, 'rate_low': 12.0, 'rate_high': 16.0}.[0m
+2021-04-21 13:50:13.784456: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 84.0
+2021-04-21 13:50:39.150497: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:50:51.058135: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.84944 14.9
+[32m[I 2021-04-21 13:51:02,495][0m Trial 60 finished with values: [0.84944, 14.9] with parameters: {'Vahp': -55.5, 'Vth': -55.0, 'Vmax': 18.5, 't_ref': 10.5, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.8, 'tau_w': 456.0, 'a': 56.0, 'rate_low': 12.0, 'rate_high': 31.5}.[0m
+2021-04-21 13:51:03.053608: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:51:28.163940: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:51:40.122795: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:51:51,113][0m Trial 61 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 39.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 41.0, 'R_adp': 0.5, 'tau_w': 42.0, 'a': 49.0, 'rate_low': 25.0, 'rate_high': 29.5}.[0m
+2021-04-21 13:51:51.669692: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:52:16.561676: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:52:28.202726: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:52:39,693][0m Trial 62 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 12.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 88.5, 'R_adp': 0.7000000000000001, 'tau_w': 229.5, 'a': 345.0, 'rate_low': 22.5, 'rate_high': 40.0}.[0m
+2021-04-21 13:52:40.250965: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 27.0
+2021-04-21 13:53:05.452652: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:53:17.476119: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12812 0.03
+[32m[I 2021-04-21 13:53:29,000][0m Trial 63 finished with values: [0.12812, 0.03] with parameters: {'Vahp': -35.5, 'Vth': -21.5, 'Vmax': 26.5, 't_ref': 9.5, 'R': 0.1, 'tau_m': 179.5, 'R_adp': 0.4, 'tau_w': 288.5, 'a': 363.5, 'rate_low': 2.0, 'rate_high': 28.0}.[0m
+2021-04-21 13:53:29.670023: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 197.0
+2021-04-21 13:53:55.159026: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:54:06.930490: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.0033 8.39
+[32m[I 2021-04-21 13:54:18,230][0m Trial 64 finished with values: [0.0033, 8.39] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.30000000000000004, 'tau_w': 152.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 29.0}.[0m
+2021-04-21 13:54:18.798065: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:54:43.648122: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:54:55.950819: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:55:07,824][0m Trial 65 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -22.0, 'Vth': -56.0, 'Vmax': 18.0, 't_ref': 17.5, 'R': 0.4, 'tau_m': 384.0, 'R_adp': 0.5, 'tau_w': 345.5, 'a': 53.0, 'rate_low': 15.5, 'rate_high': 22.0}.[0m
+2021-04-21 13:55:08.326190: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 73.0
+2021-04-21 13:55:33.616424: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:55:46.430948: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 4.50575 15.26
+[32m[I 2021-04-21 13:55:58,676][0m Trial 66 finished with values: [4.50575, 15.26] with parameters: {'Vahp': -24.0, 'Vth': -22.5, 'Vmax': 30.0, 't_ref': 4.0, 'R': 0.30000000000000004, 'tau_m': 177.5, 'R_adp': 0.7000000000000001, 'tau_w': 474.0, 'a': 171.0, 'rate_low': 25.5, 'rate_high': 43.0}.[0m
+2021-04-21 13:55:59.129113: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:56:24.134976: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:56:36.666244: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:56:48,864][0m Trial 67 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -56.0, 'Vmax': 20.0, 't_ref': 11.0, 'R': 0.7000000000000001, 'tau_m': 42.5, 'R_adp': 1.0, 'tau_w': 213.5, 'a': 58.0, 'rate_low': 31.0, 'rate_high': 37.5}.[0m
+2021-04-21 13:56:49.347312: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:57:14.504128: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:57:27.302684: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:57:40,068][0m Trial 68 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -55.0, 'Vmax': 24.0, 't_ref': 15.0, 'R': 0.2, 'tau_m': 4.5, 'R_adp': 0.2, 'tau_w': 456.0, 'a': 466.0, 'rate_low': 19.5, 'rate_high': 35.5}.[0m
+2021-04-21 13:57:40.534834: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:58:05.427610: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:58:18.348923: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 13:58:31,237][0m Trial 69 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 11.5, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 494.0, 'a': 345.0, 'rate_low': 22.5, 'rate_high': 40.0}.[0m
+2021-04-21 13:58:31.700772: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 13:58:56.923367: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 13:59:10.182117: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.003 19.17
+[32m[I 2021-04-21 13:59:23,700][0m Trial 70 finished with values: [0.003, 19.17] with parameters: {'Vahp': -54.0, 'Vth': -45.5, 'Vmax': 18.0, 't_ref': 14.5, 'R': 0.7000000000000001, 'tau_m': 384.0, 'R_adp': 0.5, 'tau_w': 2.5, 'a': 426.5, 'rate_low': 29.5, 'rate_high': 40.0}.[0m
+2021-04-21 13:59:24.169539: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 13:59:49.663025: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:00:03.679722: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:00:18,119][0m Trial 71 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -58.0, 'Vmax': 38.5, 't_ref': 1.5, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.8, 'tau_w': 120.0, 'a': 218.0, 'rate_low': 11.5, 'rate_high': 31.5}.[0m
+2021-04-21 14:00:18.614762: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:00:44.188554: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:00:58.028208: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:01:12,105][0m Trial 72 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -22.0, 'Vth': -56.0, 'Vmax': 30.5, 't_ref': 0.5, 'R': 0.6, 'tau_m': 138.0, 'R_adp': 0.7000000000000001, 'tau_w': 345.5, 'a': 29.5, 'rate_low': 15.5, 'rate_high': 22.0}.[0m
+2021-04-21 14:01:12.686785: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 77.0
+2021-04-21 14:01:38.104974: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:01:51.980530: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.18863 4.91
+[32m[I 2021-04-21 14:02:05,692][0m Trial 73 finished with values: [0.18863, 4.91] with parameters: {'Vahp': -58.0, 'Vth': -42.5, 'Vmax': 25.5, 't_ref': 11.0, 'R': 0.2, 'tau_m': 164.5, 'R_adp': 0.5, 'tau_w': 215.0, 'a': 76.5, 'rate_low': 28.5, 'rate_high': 31.5}.[0m
+2021-04-21 14:02:06.331752: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 14:02:31.402450: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:02:45.155993: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 1.088 6.81
+[32m[I 2021-04-21 14:02:58,735][0m Trial 74 finished with values: [1.088, 6.81] with parameters: {'Vahp': -30.0, 'Vth': -25.0, 'Vmax': 20.5, 't_ref': 15.0, 'R': 0.6, 'tau_m': 315.5, 'R_adp': 0.8, 'tau_w': 182.0, 'a': 466.0, 'rate_low': 43.5, 'rate_high': 42.0}.[0m
+2021-04-21 14:02:59.365471: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 14:03:25.459533: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:03:39.266152: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:03:52,694][0m Trial 75 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -25.0, 'Vmax': 24.0, 't_ref': 15.0, 'R': 0.6, 'tau_m': 183.5, 'R_adp': 0.4, 'tau_w': 222.0, 'a': 466.0, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 14:03:53.319019: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:04:18.762274: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:04:32.735967: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:04:45,882][0m Trial 76 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -58.0, 'Vmax': 12.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 88.5, 'R_adp': 0.1, 'tau_w': 42.0, 'a': 459.5, 'rate_low': 25.0, 'rate_high': 36.5}.[0m
+2021-04-21 14:04:46.409208: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 997.0
+2021-04-21 14:05:11.900037: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:05:26.560553: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:05:40,033][0m Trial 77 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -35.5, 'Vmax': 26.0, 't_ref': 13.5, 'R': 0.1, 'tau_m': 168.0, 'R_adp': 0.30000000000000004, 'tau_w': 125.0, 'a': 269.0, 'rate_low': 49.0, 'rate_high': 33.0}.[0m
+2021-04-21 14:05:40.587923: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:06:06.236560: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:06:20.976012: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:06:34,913][0m Trial 78 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.0, 'Vmax': 36.0, 't_ref': 19.0, 'R': 1.0, 'tau_m': 146.0, 'R_adp': 0.9, 'tau_w': 228.0, 'a': 35.0, 'rate_low': 28.0, 'rate_high': 42.5}.[0m
+2021-04-21 14:06:35.425754: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 67.0
+2021-04-21 14:07:01.279971: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:07:15.930959: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.0747 4.48
+[32m[I 2021-04-21 14:07:29,556][0m Trial 79 finished with values: [0.0747, 4.48] with parameters: {'Vahp': -27.0, 'Vth': -24.5, 'Vmax': 21.0, 't_ref': 13.5, 'R': 0.7000000000000001, 'tau_m': 428.5, 'R_adp': 0.1, 'tau_w': 204.0, 'a': 442.0, 'rate_low': 6.5, 'rate_high': 29.0}.[0m
+2021-04-21 14:07:30.062564: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 43.0
+2021-04-21 14:07:55.974779: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:08:10.798596: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 5.99124 7.14
+[32m[I 2021-04-21 14:08:24,664][0m Trial 80 finished with values: [5.99124, 7.14] with parameters: {'Vahp': -47.0, 'Vth': -38.5, 'Vmax': 31.0, 't_ref': 2.5, 'R': 0.4, 'tau_m': 129.0, 'R_adp': 0.7000000000000001, 'tau_w': 379.5, 'a': 467.0, 'rate_low': 11.5, 'rate_high': 31.5}.[0m
+2021-04-21 14:08:25.173296: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 14:08:51.261179: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:09:05.706931: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:09:19,600][0m Trial 81 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.0, 'Vth': -39.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 183.5, 'R_adp': 0.4, 'tau_w': 306.0, 'a': 229.5, 'rate_low': 48.0, 'rate_high': 49.0}.[0m
+2021-04-21 14:09:20.138003: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 112.0
+2021-04-21 14:09:45.806938: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:10:00.335411: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.9572 10.21
+[32m[I 2021-04-21 14:10:14,550][0m Trial 82 finished with values: [0.9572, 10.21] with parameters: {'Vahp': -51.0, 'Vth': -42.5, 'Vmax': 25.5, 't_ref': 8.0, 'R': 0.30000000000000004, 'tau_m': 177.5, 'R_adp': 0.5, 'tau_w': 474.0, 'a': 38.5, 'rate_low': 26.0, 'rate_high': 14.5}.[0m
+2021-04-21 14:10:15.172618: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:10:41.509902: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:10:56.464816: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12401 1000.1
+[32m[I 2021-04-21 14:11:10,833][0m Trial 83 finished with values: [0.12401, 1000.1] with parameters: {'Vahp': -43.5, 'Vth': -58.5, 'Vmax': 20.5, 't_ref': 3.0, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.2, 'tau_w': 70.0, 'a': 219.5, 'rate_low': 43.5, 'rate_high': 27.0}.[0m
+2021-04-21 14:11:11.401974: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 251.0
+2021-04-21 14:11:37.714952: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:11:52.207178: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00066 19.22
+[32m[I 2021-04-21 14:12:06,276][0m Trial 84 finished with values: [0.00066, 19.22] with parameters: {'Vahp': -39.0, 'Vth': -26.0, 'Vmax': 34.5, 't_ref': 1.5, 'R': 0.6, 'tau_m': 422.5, 'R_adp': 0.9, 'tau_w': 28.5, 'a': 186.0, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 14:12:06.799316: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:12:33.168506: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:12:47.636827: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12401 1000.1
+[32m[I 2021-04-21 14:13:01,334][0m Trial 85 finished with values: [0.12401, 1000.1] with parameters: {'Vahp': -30.0, 'Vth': -58.5, 'Vmax': 20.5, 't_ref': 7.5, 'R': 1.0, 'tau_m': 179.5, 'R_adp': 0.8, 'tau_w': 182.0, 'a': 363.5, 'rate_low': 2.0, 'rate_high': 28.5}.[0m
+2021-04-21 14:13:01.876283: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 72.0
+2021-04-21 14:13:28.656076: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:13:43.531831: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.04422 1.91
+[32m[I 2021-04-21 14:13:57,395][0m Trial 86 finished with values: [0.04422, 1.91] with parameters: {'Vahp': -57.5, 'Vth': -42.5, 'Vmax': 25.5, 't_ref': 11.5, 'R': 0.2, 'tau_m': 152.5, 'R_adp': 0.4, 'tau_w': 456.0, 'a': 38.5, 'rate_low': 5.5, 'rate_high': 26.5}.[0m
+2021-04-21 14:13:57.947486: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 200.0
+2021-04-21 14:14:25.042080: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:14:40.637301: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.13487 0.13
+[32m[I 2021-04-21 14:14:54,484][0m Trial 87 finished with values: [0.13487, 0.13] with parameters: {'Vahp': -35.5, 'Vth': -35.0, 'Vmax': 21.5, 't_ref': 4.0, 'R': 0.1, 'tau_m': 179.5, 'R_adp': 0.1, 'tau_w': 28.5, 'a': 363.5, 'rate_low': 2.0, 'rate_high': 28.5}.[0m
+2021-04-21 14:14:55.075590: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 59.0
+2021-04-21 14:15:21.930738: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:15:37.347618: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.28237 5.63
+[32m[I 2021-04-21 14:15:51,454][0m Trial 88 finished with values: [0.28237, 5.63] with parameters: {'Vahp': -33.5, 'Vth': -21.0, 'Vmax': 20.0, 't_ref': 15.5, 'R': 0.8, 'tau_m': 221.0, 'R_adp': 0.7000000000000001, 'tau_w': 493.0, 'a': 296.5, 'rate_low': 22.5, 'rate_high': 48.5}.[0m
+2021-04-21 14:15:52.001612: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:16:19.396748: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:16:35.373169: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:16:49,852][0m Trial 89 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -26.0, 'Vmax': 34.5, 't_ref': 2.0, 'R': 0.5, 'tau_m': 121.0, 'R_adp': 0.1, 'tau_w': 106.0, 'a': 401.0, 'rate_low': 36.5, 'rate_high': 45.5}.[0m
+2021-04-21 14:16:50.423565: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 48.0
+2021-04-21 14:17:17.684555: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:17:33.877644: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.01057 18.54
+[32m[I 2021-04-21 14:17:48,224][0m Trial 90 finished with values: [0.01057, 18.54] with parameters: {'Vahp': -50.0, 'Vth': -49.5, 'Vmax': 34.5, 't_ref': 19.5, 'R': 1.0, 'tau_m': 477.5, 'R_adp': 0.8, 'tau_w': 168.5, 'a': 20.5, 'rate_low': 14.0, 'rate_high': 44.0}.[0m
+2021-04-21 14:17:48.765898: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 95.0
+2021-04-21 14:18:16.614544: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:18:32.972009: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 3.39052 16.92
+[32m[I 2021-04-21 14:18:47,281][0m Trial 91 finished with values: [3.39052, 16.92] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 29.0, 't_ref': 3.0, 'R': 0.6, 'tau_m': 422.5, 'R_adp': 1.0, 'tau_w': 474.0, 'a': 171.0, 'rate_low': 42.5, 'rate_high': 29.5}.[0m
+2021-04-21 14:18:47.895937: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:19:15.390918: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:19:31.475567: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:19:46,079][0m Trial 92 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -44.5, 'Vmax': 12.0, 't_ref': 15.0, 'R': 0.6, 'tau_m': 88.5, 'R_adp': 0.2, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 34.5, 'rate_high': 42.0}.[0m
+2021-04-21 14:19:46.669011: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 59.0
+2021-04-21 14:20:14.468060: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:20:30.689622: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.1518 12.43
+[32m[I 2021-04-21 14:20:45,365][0m Trial 93 finished with values: [0.1518, 12.43] with parameters: {'Vahp': -50.5, 'Vth': -28.5, 'Vmax': 16.0, 't_ref': 15.5, 'R': 0.8, 'tau_m': 180.0, 'R_adp': 0.1, 'tau_w': 391.0, 'a': 490.0, 'rate_low': 41.5, 'rate_high': 44.5}.[0m
+2021-04-21 14:20:45.925446: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:21:13.837677: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:21:30.062658: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:21:44,609][0m Trial 94 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -48.0, 'Vth': -58.0, 'Vmax': 40.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 180.0, 'R_adp': 0.30000000000000004, 'tau_w': 391.0, 'a': 49.0, 'rate_low': 41.5, 'rate_high': 36.5}.[0m
+2021-04-21 14:21:45.167995: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 128.0
+2021-04-21 14:22:13.582191: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:22:29.739472: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.03819 5.87
+[32m[I 2021-04-21 14:22:44,757][0m Trial 95 finished with values: [0.03819, 5.87] with parameters: {'Vahp': -58.5, 'Vth': -33.5, 'Vmax': 34.5, 't_ref': 3.5, 'R': 0.6, 'tau_m': 477.5, 'R_adp': 0.6, 'tau_w': 213.0, 'a': 192.0, 'rate_low': 35.5, 'rate_high': 45.5}.[0m
+2021-04-21 14:22:45.302890: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:23:13.466423: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:23:30.081200: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:23:45,422][0m Trial 96 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -38.0, 'Vth': -56.0, 'Vmax': 22.0, 't_ref': 13.5, 'R': 0.7000000000000001, 'tau_m': 428.5, 'R_adp': 0.2, 'tau_w': 376.5, 'a': 442.0, 'rate_low': 6.5, 'rate_high': 29.0}.[0m
+2021-04-21 14:23:45.970573: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 998.0
+2021-04-21 14:24:14.449416: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:24:30.695852: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:24:46,203][0m Trial 97 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 20.0, 't_ref': 3.5, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.7000000000000001, 'tau_w': 494.0, 'a': 345.0, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 14:24:46.770272: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 59.0
+2021-04-21 14:25:14.741293: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:25:31.117534: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.17396 13.86
+[32m[I 2021-04-21 14:25:47,160][0m Trial 98 finished with values: [0.17396, 13.86] with parameters: {'Vahp': -43.5, 'Vth': -43.5, 'Vmax': 18.0, 't_ref': 15.5, 'R': 1.0, 'tau_m': 320.0, 'R_adp': 0.2, 'tau_w': 138.0, 'a': 382.0, 'rate_low': 15.5, 'rate_high': 27.0}.[0m
+2021-04-21 14:25:47.703688: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 50.0
+2021-04-21 14:26:16.367605: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:26:33.279230: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.0061 22.33
+[32m[I 2021-04-21 14:26:49,886][0m Trial 99 finished with values: [0.0061, 22.33] with parameters: {'Vahp': -40.0, 'Vth': -21.5, 'Vmax': 14.5, 't_ref': 19.0, 'R': 0.9, 'tau_m': 58.5, 'R_adp': 0.4, 'tau_w': 136.5, 'a': 20.5, 'rate_low': 41.5, 'rate_high': 45.5}.[0m
+2021-04-21 14:26:50.546258: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 112.0
+2021-04-21 14:27:19.438668: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:27:36.524557: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.60524 6.92
+[32m[I 2021-04-21 14:27:53,312][0m Trial 100 finished with values: [0.60524, 6.92] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 24.0, 't_ref': 2.5, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.30000000000000004, 'tau_w': 222.0, 'a': 466.0, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 14:27:53.917172: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:28:22.775935: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:28:40.470913: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:28:57,616][0m Trial 101 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.0, 'Vth': -40.0, 'Vmax': 27.5, 't_ref': 9.5, 'R': 0.8, 'tau_m': 232.0, 'R_adp': 0.7000000000000001, 'tau_w': 42.0, 'a': 459.5, 'rate_low': 48.5, 'rate_high': 50.0}.[0m
+2021-04-21 14:28:58.179990: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:29:27.674122: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:29:45.469297: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:30:02,582][0m Trial 102 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -56.0, 'Vmax': 11.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 494.0, 'a': 345.0, 'rate_low': 42.5, 'rate_high': 40.0}.[0m
+2021-04-21 14:30:03.155525: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 50.0
+2021-04-21 14:30:32.862385: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:30:50.702415: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.15561 18.08
+[32m[I 2021-04-21 14:31:07,352][0m Trial 103 finished with values: [0.15561, 18.08] with parameters: {'Vahp': -45.5, 'Vth': -45.0, 'Vmax': 39.5, 't_ref': 19.0, 'R': 0.7000000000000001, 'tau_m': 88.5, 'R_adp': 0.9, 'tau_w': 228.0, 'a': 35.0, 'rate_low': 22.5, 'rate_high': 42.5}.[0m
+2021-04-21 14:31:07.929813: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:31:37.834896: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:31:55.763652: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:32:12,552][0m Trial 104 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -33.5, 'Vmax': 11.5, 't_ref': 13.5, 'R': 0.5, 'tau_m': 89.0, 'R_adp': 0.7000000000000001, 'tau_w': 213.0, 'a': 192.0, 'rate_low': 28.0, 'rate_high': 50.0}.[0m
+2021-04-21 14:32:13.125265: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 997.0
+2021-04-21 14:32:43.090135: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:33:01.196751: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:33:18,203][0m Trial 105 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.5, 'Vth': -39.0, 'Vmax': 26.5, 't_ref': 9.5, 'R': 0.1, 'tau_m': 181.5, 'R_adp': 0.1, 'tau_w': 288.5, 'a': 220.0, 'rate_low': 2.0, 'rate_high': 28.5}.[0m
+2021-04-21 14:33:18.773031: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:33:49.123489: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:34:07.310132: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:34:24,586][0m Trial 106 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -43.5, 'Vth': -58.0, 'Vmax': 18.0, 't_ref': 3.0, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.6, 'tau_w': 146.0, 'a': 218.0, 'rate_low': 6.5, 'rate_high': 8.5}.[0m
+2021-04-21 14:34:25.147885: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:34:54.898002: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:35:12.655316: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:35:29,697][0m Trial 107 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -35.5, 'Vmax': 26.0, 't_ref': 13.5, 'R': 0.7000000000000001, 'tau_m': 168.0, 'R_adp': 0.2, 'tau_w': 376.5, 'a': 269.0, 'rate_low': 39.0, 'rate_high': 33.0}.[0m
+2021-04-21 14:35:30.251857: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 112.0
+2021-04-21 14:36:00.673462: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:36:18.676273: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 2.09809 16.39
+[32m[I 2021-04-21 14:36:35,500][0m Trial 108 finished with values: [2.09809, 16.39] with parameters: {'Vahp': -47.0, 'Vth': -29.5, 'Vmax': 33.5, 't_ref': 7.5, 'R': 0.8, 'tau_m': 180.0, 'R_adp': 0.30000000000000004, 'tau_w': 391.0, 'a': 369.0, 'rate_low': 41.5, 'rate_high': 36.5}.[0m
+2021-04-21 14:36:36.048111: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 12.0
+2021-04-21 14:37:06.628310: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:37:24.787061: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.14024 0.16
+[32m[I 2021-04-21 14:37:41,696][0m Trial 109 finished with values: [0.14024, 0.16] with parameters: {'Vahp': -45.5, 'Vth': -33.0, 'Vmax': 20.0, 't_ref': 3.5, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.7000000000000001, 'tau_w': 494.0, 'a': 345.0, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 14:37:42.261469: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:38:12.419664: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:38:30.464495: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:38:47,214][0m Trial 110 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -57.0, 'Vmax': 26.0, 't_ref': 13.5, 'R': 0.9, 'tau_m': 197.0, 'R_adp': 0.7000000000000001, 'tau_w': 254.0, 'a': 499.5, 'rate_low': 29.5, 'rate_high': 33.0}.[0m
+2021-04-21 14:38:47.796329: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:39:17.712204: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:39:36.345198: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:39:53,178][0m Trial 111 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -56.0, 'Vmax': 18.5, 't_ref': 11.0, 'R': 0.30000000000000004, 'tau_m': 297.0, 'R_adp': 0.8, 'tau_w': 213.5, 'a': 171.0, 'rate_low': 31.0, 'rate_high': 45.5}.[0m
+2021-04-21 14:39:53.760433: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:40:23.608446: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:40:41.803453: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:40:58,967][0m Trial 112 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 14.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 494.0, 'a': 345.0, 'rate_low': 22.5, 'rate_high': 40.0}.[0m
+2021-04-21 14:40:59.588111: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:41:29.258524: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:41:47.829952: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:42:05,234][0m Trial 113 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 39.0, 't_ref': 7.5, 'R': 0.30000000000000004, 'tau_m': 177.5, 'R_adp': 0.8, 'tau_w': 474.0, 'a': 171.0, 'rate_low': 26.0, 'rate_high': 36.5}.[0m
+2021-04-21 14:42:05.912812: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 998.0
+2021-04-21 14:42:36.079524: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:42:54.718670: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:43:12,430][0m Trial 114 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -35.0, 'Vmax': 16.0, 't_ref': 4.0, 'R': 0.2, 'tau_m': 232.5, 'R_adp': 0.2, 'tau_w': 28.5, 'a': 331.5, 'rate_low': 21.0, 'rate_high': 45.0}.[0m
+2021-04-21 14:43:13.061445: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:43:43.016621: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:44:02.079370: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:44:20,339][0m Trial 115 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -48.0, 'Vth': -58.0, 'Vmax': 40.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 180.0, 'R_adp': 0.30000000000000004, 'tau_w': 391.0, 'a': 49.0, 'rate_low': 41.5, 'rate_high': 36.5}.[0m
+2021-04-21 14:44:20.963071: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:44:51.435157: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:45:11.028536: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:45:29,119][0m Trial 116 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.0, 'Vmax': 36.0, 't_ref': 19.0, 'R': 0.8, 'tau_m': 88.5, 'R_adp': 0.2, 'tau_w': 228.0, 'a': 35.0, 'rate_low': 34.5, 'rate_high': 42.0}.[0m
+2021-04-21 14:45:29.776460: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 102.0
+2021-04-21 14:46:00.027872: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:46:19.669169: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.03657 1.38
+[32m[I 2021-04-21 14:46:37,904][0m Trial 117 finished with values: [0.03657, 1.38] with parameters: {'Vahp': -43.5, 'Vth': -37.5, 'Vmax': 39.0, 't_ref': 3.0, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.5, 'tau_w': 42.0, 'a': 316.0, 'rate_low': 16.5, 'rate_high': 29.5}.[0m
+2021-04-21 14:46:38.508815: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:47:09.045369: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:47:28.900412: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:47:47,422][0m Trial 118 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -56.0, 'Vmax': 31.0, 't_ref': 11.0, 'R': 0.7000000000000001, 'tau_m': 42.5, 'R_adp': 1.0, 'tau_w': 102.5, 'a': 58.0, 'rate_low': 31.0, 'rate_high': 45.5}.[0m
+2021-04-21 14:47:48.048733: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:48:18.551849: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:48:38.954572: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:48:57,813][0m Trial 119 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -56.5, 'Vmax': 24.0, 't_ref': 15.0, 'R': 0.6, 'tau_m': 389.5, 'R_adp': 0.4, 'tau_w': 222.0, 'a': 189.5, 'rate_low': 23.5, 'rate_high': 44.0}.[0m
+2021-04-21 14:48:58.425539: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:49:29.335924: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:49:50.560131: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:50:09,616][0m Trial 120 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 18.0, 't_ref': 17.5, 'R': 0.4, 'tau_m': 41.0, 'R_adp': 0.5, 'tau_w': 345.5, 'a': 53.0, 'rate_low': 15.5, 'rate_high': 22.0}.[0m
+2021-04-21 14:50:10.226755: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 162.0
+2021-04-21 14:50:40.663671: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:51:01.744645: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 7.01333 28.0
+[32m[I 2021-04-21 14:51:20,832][0m Trial 121 finished with values: [7.01333, 28.0] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 26.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 168.0, 'R_adp': 0.30000000000000004, 'tau_w': 494.0, 'a': 269.0, 'rate_low': 49.0, 'rate_high': 33.0}.[0m
+2021-04-21 14:51:21.474492: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:51:51.910781: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:52:13.355699: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:52:32,839][0m Trial 122 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -25.0, 'Vmax': 24.0, 't_ref': 15.0, 'R': 0.5, 'tau_m': 121.0, 'R_adp': 0.4, 'tau_w': 222.0, 'a': 466.0, 'rate_low': 40.0, 'rate_high': 45.5}.[0m
+2021-04-21 14:52:33.520357: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 53.0
+2021-04-21 14:53:03.851575: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:53:25.550079: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.26197 4.65
+[32m[I 2021-04-21 14:53:45,607][0m Trial 123 finished with values: [0.26197, 4.65] with parameters: {'Vahp': -45.5, 'Vth': -25.0, 'Vmax': 17.0, 't_ref': 15.0, 'R': 0.6, 'tau_m': 462.0, 'R_adp': 0.5, 'tau_w': 345.5, 'a': 466.0, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 14:53:46.254675: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:54:16.997731: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:54:37.720751: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:54:57,638][0m Trial 124 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 41.0, 'R_adp': 0.4, 'tau_w': 306.0, 'a': 229.5, 'rate_low': 48.0, 'rate_high': 49.0}.[0m
+2021-04-21 14:54:58.325827: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 997.0
+2021-04-21 14:55:30.097676: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:55:50.733941: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:56:10,709][0m Trial 125 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.5, 'Vth': -39.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.1, 'tau_m': 179.5, 'R_adp': 0.1, 'tau_w': 288.5, 'a': 362.5, 'rate_low': 49.5, 'rate_high': 28.5}.[0m
+2021-04-21 14:56:11.368905: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:56:43.384031: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:57:04.034862: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:57:23,227][0m Trial 126 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -58.0, 'Vmax': 38.5, 't_ref': 7.0, 'R': 0.1, 'tau_m': 449.5, 'R_adp': 0.6, 'tau_w': 146.0, 'a': 345.0, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 14:57:23.999301: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 14:57:55.760858: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:58:15.944330: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:58:34,949][0m Trial 127 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.5, 'tau_w': 152.5, 'a': 467.5, 'rate_low': 29.5, 'rate_high': 47.0}.[0m
+2021-04-21 14:58:35.570186: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 14:59:08.251729: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 14:59:28.793626: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 14:59:48,077][0m Trial 128 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -56.0, 'Vmax': 31.0, 't_ref': 2.0, 'R': 0.5, 'tau_m': 42.5, 'R_adp': 0.1, 'tau_w': 106.0, 'a': 58.0, 'rate_low': 36.5, 'rate_high': 45.5}.[0m
+2021-04-21 14:59:48.709291: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:00:21.926006: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:00:41.881295: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:01:00,961][0m Trial 129 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 11.5, 't_ref': 13.5, 'R': 0.9, 'tau_m': 22.0, 'R_adp': 0.7000000000000001, 'tau_w': 254.0, 'a': 18.5, 'rate_low': 28.0, 'rate_high': 39.0}.[0m
+2021-04-21 15:01:01.620279: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:01:34.365019: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:01:54.926731: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:02:14,462][0m Trial 130 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -58.0, 'Vmax': 38.5, 't_ref': 9.0, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.8, 'tau_w': 120.0, 'a': 218.0, 'rate_low': 11.5, 'rate_high': 31.5}.[0m
+2021-04-21 15:02:15.151965: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:02:48.030641: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:03:08.792246: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:03:27,795][0m Trial 131 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -38.0, 'Vth': -56.0, 'Vmax': 22.0, 't_ref': 13.5, 'R': 0.7000000000000001, 'tau_m': 428.5, 'R_adp': 0.2, 'tau_w': 376.5, 'a': 135.5, 'rate_low': 21.0, 'rate_high': 45.0}.[0m
+2021-04-21 15:03:28.413262: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 998.0
+2021-04-21 15:04:01.062662: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:04:22.128346: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:04:41,366][0m Trial 132 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 20.5, 't_ref': 3.5, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.7000000000000001, 'tau_w': 152.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 50.0}.[0m
+2021-04-21 15:04:42.020089: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:05:15.107764: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:05:36.205039: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:05:55,963][0m Trial 133 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -21.5, 'Vth': -29.5, 'Vmax': 36.5, 't_ref': 19.0, 'R': 0.8, 'tau_m': 109.5, 'R_adp': 0.30000000000000004, 'tau_w': 228.0, 'a': 35.0, 'rate_low': 15.0, 'rate_high': 42.5}.[0m
+2021-04-21 15:05:56.607108: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:06:29.893401: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:06:51.094566: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:07:11,202][0m Trial 134 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -57.0, 'Vmax': 26.0, 't_ref': 15.0, 'R': 0.1, 'tau_m': 4.5, 'R_adp': 0.1, 'tau_w': 125.0, 'a': 269.0, 'rate_low': 29.5, 'rate_high': 35.5}.[0m
+2021-04-21 15:07:11.834149: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:07:45.718272: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:08:07.133267: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:08:26,584][0m Trial 135 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -27.0, 'Vth': -49.5, 'Vmax': 22.0, 't_ref': 3.0, 'R': 0.9, 'tau_m': 16.0, 'R_adp': 1.0, 'tau_w': 494.0, 'a': 487.5, 'rate_low': 22.5, 'rate_high': 40.0}.[0m
+2021-04-21 15:08:27.214786: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:09:00.515608: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:09:22.038197: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:09:41,620][0m Trial 136 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -44.5, 'Vmax': 36.0, 't_ref': 15.0, 'R': 1.0, 'tau_m': 146.0, 'R_adp': 0.2, 'tau_w': 228.0, 'a': 459.5, 'rate_low': 34.5, 'rate_high': 42.5}.[0m
+2021-04-21 15:09:42.239198: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:10:15.902570: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:10:37.616415: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:10:57,748][0m Trial 137 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 39.0, 't_ref': 3.5, 'R': 0.8, 'tau_m': 320.0, 'R_adp': 0.1, 'tau_w': 32.5, 'a': 345.0, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 15:10:58.384788: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 15:11:32.186152: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:11:54.382765: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.7775 15.61
+[32m[I 2021-04-21 15:12:14,208][0m Trial 138 finished with values: [0.7775, 15.61] with parameters: {'Vahp': -27.0, 'Vth': -25.0, 'Vmax': 22.0, 't_ref': 15.0, 'R': 0.9, 'tau_m': 4.5, 'R_adp': 0.2, 'tau_w': 449.5, 'a': 487.5, 'rate_low': 41.0, 'rate_high': 41.0}.[0m
+2021-04-21 15:12:14.845847: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 15:12:48.205362: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:13:10.541858: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:13:30,442][0m Trial 139 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -35.5, 'Vmax': 26.0, 't_ref': 3.5, 'R': 0.6, 'tau_m': 317.0, 'R_adp': 0.30000000000000004, 'tau_w': 290.5, 'a': 192.0, 'rate_low': 49.0, 'rate_high': 50.0}.[0m
+2021-04-21 15:13:31.092300: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:14:04.392835: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:14:27.839970: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:14:48,267][0m Trial 140 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.0, 'Vth': -56.5, 'Vmax': 22.0, 't_ref': 3.0, 'R': 0.5, 'tau_m': 389.5, 'R_adp': 1.0, 'tau_w': 271.0, 'a': 189.5, 'rate_low': 8.5, 'rate_high': 44.0}.[0m
+2021-04-21 15:14:48.927773: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:15:22.803924: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:15:46.420830: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:16:07,257][0m Trial 141 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -39.0, 'Vmax': 34.5, 't_ref': 2.0, 'R': 0.5, 'tau_m': 121.0, 'R_adp': 0.4, 'tau_w': 106.0, 'a': 229.5, 'rate_low': 36.5, 'rate_high': 49.0}.[0m
+2021-04-21 15:16:07.918710: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:16:42.220774: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:17:05.592990: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:17:26,167][0m Trial 142 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -58.0, 'Vmax': 12.0, 't_ref': 7.5, 'R': 0.30000000000000004, 'tau_m': 177.5, 'R_adp': 0.1, 'tau_w': 474.0, 'a': 459.5, 'rate_low': 25.0, 'rate_high': 29.5}.[0m
+2021-04-21 15:17:26.823274: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 15:18:00.939868: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:18:23.608939: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:18:44,564][0m Trial 143 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -33.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 183.5, 'R_adp': 0.30000000000000004, 'tau_w': 414.0, 'a': 269.0, 'rate_low': 48.0, 'rate_high': 49.0}.[0m
+2021-04-21 15:18:45.208341: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 33.0
+2021-04-21 15:19:19.109725: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:19:41.843900: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.13003 1.03
+[32m[I 2021-04-21 15:20:02,714][0m Trial 144 finished with values: [0.13003, 1.03] with parameters: {'Vahp': -28.0, 'Vth': -25.0, 'Vmax': 31.0, 't_ref': 14.5, 'R': 0.1, 'tau_m': 126.0, 'R_adp': 0.5, 'tau_w': 222.0, 'a': 307.5, 'rate_low': 49.0, 'rate_high': 42.0}.[0m
+2021-04-21 15:20:03.370222: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 224.0
+2021-04-21 15:20:37.885404: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:21:01.387020: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.001 18.32
+[32m[I 2021-04-21 15:21:22,361][0m Trial 145 finished with values: [0.001, 18.32] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 11.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 422.5, 'R_adp': 1.0, 'tau_w': 28.5, 'a': 276.0, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 15:21:23.021106: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 15:21:57.388561: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:22:20.313599: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00629 16.66
+[32m[I 2021-04-21 15:22:40,979][0m Trial 146 finished with values: [0.00629, 16.66] with parameters: {'Vahp': -55.5, 'Vth': -29.5, 'Vmax': 37.5, 't_ref': 14.5, 'R': 0.7000000000000001, 'tau_m': 129.0, 'R_adp': 0.5, 'tau_w': 222.0, 'a': 56.0, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 15:22:41.649341: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 992.0
+2021-04-21 15:23:15.577156: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:23:39.072220: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:24:00,181][0m Trial 147 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -35.5, 'Vmax': 20.0, 't_ref': 11.0, 'R': 0.1, 'tau_m': 382.0, 'R_adp': 1.0, 'tau_w': 125.0, 'a': 269.0, 'rate_low': 49.0, 'rate_high': 37.5}.[0m
+2021-04-21 15:24:00.850299: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:24:35.457583: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:24:58.477639: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:25:20,346][0m Trial 148 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -58.0, 'Vmax': 38.5, 't_ref': 1.5, 'R': 0.4, 'tau_m': 129.0, 'R_adp': 0.5, 'tau_w': 120.0, 'a': 218.0, 'rate_low': 29.5, 'rate_high': 31.5}.[0m
+2021-04-21 15:25:20.998624: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:25:55.134837: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:26:18.207594: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:26:40,410][0m Trial 149 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.0, 'Vmax': 36.0, 't_ref': 15.0, 'R': 1.0, 'tau_m': 146.0, 'R_adp': 0.2, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 28.0, 'rate_high': 42.5}.[0m
+2021-04-21 15:26:41.096536: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:27:15.823170: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:27:39.494945: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:28:02,239][0m Trial 150 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 11.5, 't_ref': 13.5, 'R': 0.9, 'tau_m': 22.0, 'R_adp': 0.7000000000000001, 'tau_w': 254.0, 'a': 18.5, 'rate_low': 28.0, 'rate_high': 39.0}.[0m
+2021-04-21 15:28:02.894094: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 148.0
+2021-04-21 15:28:37.530836: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:29:01.516712: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00645 6.32
+[32m[I 2021-04-21 15:29:24,269][0m Trial 151 finished with values: [0.00645, 6.32] with parameters: {'Vahp': -55.0, 'Vth': -29.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.30000000000000004, 'tau_w': 229.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 38.5}.[0m
+2021-04-21 15:29:24.974454: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:29:59.047669: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:30:22.663249: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:30:45,563][0m Trial 152 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -58.0, 'Vmax': 22.0, 't_ref': 7.5, 'R': 0.9, 'tau_m': 16.0, 'R_adp': 0.1, 'tau_w': 494.0, 'a': 459.5, 'rate_low': 25.0, 'rate_high': 40.0}.[0m
+2021-04-21 15:30:46.259924: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 250.0
+2021-04-21 15:31:20.474805: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:31:44.090786: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00093 20.39
+[32m[I 2021-04-21 15:32:07,492][0m Trial 153 finished with values: [0.00093, 20.39] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 26.0, 't_ref': 2.5, 'R': 0.4, 'tau_m': 197.0, 'R_adp': 0.30000000000000004, 'tau_w': 14.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 33.0}.[0m
+2021-04-21 15:32:08.179119: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 63.0
+2021-04-21 15:32:42.973417: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:33:07.459781: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.19451 10.76
+[32m[I 2021-04-21 15:33:30,708][0m Trial 154 finished with values: [0.19451, 10.76] with parameters: {'Vahp': -40.5, 'Vth': -25.0, 'Vmax': 31.0, 't_ref': 15.0, 'R': 0.7000000000000001, 'tau_m': 126.0, 'R_adp': 0.2, 'tau_w': 222.0, 'a': 426.5, 'rate_low': 28.0, 'rate_high': 42.0}.[0m
+2021-04-21 15:33:31.387910: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:34:06.134364: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:34:31.314416: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:34:54,747][0m Trial 155 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 36.0, 't_ref': 14.0, 'R': 0.8, 'tau_m': 88.5, 'R_adp': 0.2, 'tau_w': 32.5, 'a': 35.0, 'rate_low': 34.5, 'rate_high': 42.0}.[0m
+2021-04-21 15:34:55.423869: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:35:30.239754: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:35:56.289582: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:36:20,076][0m Trial 156 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.5, 'Vth': -39.0, 'Vmax': 37.5, 't_ref': 15.0, 'R': 0.4, 'tau_m': 179.5, 'R_adp': 0.1, 'tau_w': 229.5, 'a': 362.5, 'rate_low': 49.5, 'rate_high': 28.5}.[0m
+2021-04-21 15:36:20.743316: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:36:56.105716: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:37:22.586873: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:37:46,522][0m Trial 157 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -45.5, 'Vmax': 26.0, 't_ref': 2.5, 'R': 0.1, 'tau_m': 4.5, 'R_adp': 0.1, 'tau_w': 152.5, 'a': 467.5, 'rate_low': 29.5, 'rate_high': 47.0}.[0m
+2021-04-21 15:37:47.223218: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:38:22.234986: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:38:48.618817: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:39:12,067][0m Trial 158 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -45.0, 'Vmax': 36.0, 't_ref': 15.0, 'R': 1.0, 'tau_m': 146.0, 'R_adp': 0.2, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 8.0, 'rate_high': 19.5}.[0m
+2021-04-21 15:39:12.745632: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:39:47.218429: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:40:14.206620: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:40:38,026][0m Trial 159 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -38.0, 'Vth': -44.5, 'Vmax': 22.0, 't_ref': 15.0, 'R': 1.0, 'tau_m': 146.0, 'R_adp': 0.2, 'tau_w': 376.5, 'a': 459.5, 'rate_low': 34.5, 'rate_high': 42.5}.[0m
+2021-04-21 15:40:38.711412: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 59.0
+2021-04-21 15:41:13.775758: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:41:40.532707: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00429 7.67
+[32m[I 2021-04-21 15:42:04,874][0m Trial 160 finished with values: [0.00429, 7.67] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 20.5, 't_ref': 15.0, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.30000000000000004, 'tau_w': 152.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 35.0}.[0m
+2021-04-21 15:42:05.569662: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 111.0
+2021-04-21 15:42:41.525221: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:43:08.673123: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00189 15.04
+[32m[I 2021-04-21 15:43:33,165][0m Trial 161 finished with values: [0.00189, 15.04] with parameters: {'Vahp': -48.0, 'Vth': -29.5, 'Vmax': 40.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 379.5, 'R_adp': 0.30000000000000004, 'tau_w': 69.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 29.0}.[0m
+2021-04-21 15:43:33.841982: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:44:09.793224: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:44:36.832408: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:45:01,937][0m Trial 162 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.0, 'Vth': -45.5, 'Vmax': 28.0, 't_ref': 9.5, 'R': 0.8, 'tau_m': 232.0, 'R_adp': 0.30000000000000004, 'tau_w': 391.0, 'a': 459.5, 'rate_low': 41.5, 'rate_high': 36.5}.[0m
+2021-04-21 15:45:02.639569: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:45:38.759396: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:46:06.005641: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:46:31,411][0m Trial 163 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -57.0, 'Vmax': 18.5, 't_ref': 11.0, 'R': 0.30000000000000004, 'tau_m': 297.0, 'R_adp': 0.8, 'tau_w': 213.5, 'a': 171.0, 'rate_low': 31.0, 'rate_high': 45.5}.[0m
+2021-04-21 15:46:32.126731: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:47:08.257297: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:47:34.942223: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:48:00,116][0m Trial 164 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 38.5, 't_ref': 7.0, 'R': 0.1, 'tau_m': 41.0, 'R_adp': 0.6, 'tau_w': 306.0, 'a': 345.0, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 15:48:00.815600: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:48:37.902448: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:49:03.970664: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:49:28,793][0m Trial 165 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 11.5, 't_ref': 13.5, 'R': 0.9, 'tau_m': 366.5, 'R_adp': 0.7000000000000001, 'tau_w': 376.5, 'a': 302.0, 'rate_low': 28.0, 'rate_high': 39.0}.[0m
+2021-04-21 15:49:29.491261: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 997.0
+2021-04-21 15:50:06.764688: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:50:31.802124: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:50:56,049][0m Trial 166 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -39.0, 'Vmax': 37.5, 't_ref': 10.5, 'R': 0.1, 'tau_m': 179.5, 'R_adp': 0.2, 'tau_w': 28.5, 'a': 331.5, 'rate_low': 49.5, 'rate_high': 28.5}.[0m
+2021-04-21 15:50:56.757902: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 209.0
+2021-04-21 15:51:34.476948: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:51:59.562933: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 8.7995 20.59
+[32m[I 2021-04-21 15:52:23,348][0m Trial 167 finished with values: [8.7995, 20.59] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 0.8, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 152.5, 'a': 345.0, 'rate_low': 28.0, 'rate_high': 40.0}.[0m
+2021-04-21 15:52:24.061993: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:53:01.441781: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:53:27.051208: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:53:50,749][0m Trial 168 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -27.0, 'Vth': -49.5, 'Vmax': 22.0, 't_ref': 11.0, 'R': 0.9, 'tau_m': 297.0, 'R_adp': 0.8, 'tau_w': 494.0, 'a': 487.5, 'rate_low': 3.0, 'rate_high': 40.0}.[0m
+2021-04-21 15:53:51.449366: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 227.0
+2021-04-21 15:54:28.438066: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:54:54.796603: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 18.16667 41.28
+[32m[I 2021-04-21 15:55:18,748][0m Trial 169 finished with values: [18.16667, 41.28] with parameters: {'Vahp': -48.0, 'Vth': -35.0, 'Vmax': 22.0, 't_ref': 3.0, 'R': 0.9, 'tau_m': 16.0, 'R_adp': 0.2, 'tau_w': 494.0, 'a': 487.5, 'rate_low': 21.0, 'rate_high': 36.5}.[0m
+2021-04-21 15:55:19.443825: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 998.0
+2021-04-21 15:55:56.377692: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:56:22.660947: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:56:47,276][0m Trial 170 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -35.0, 'Vmax': 16.0, 't_ref': 4.0, 'R': 0.2, 'tau_m': 232.5, 'R_adp': 0.1, 'tau_w': 28.5, 'a': 58.0, 'rate_low': 36.5, 'rate_high': 45.5}.[0m
+2021-04-21 15:56:48.085016: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:57:25.312396: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:57:51.254025: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:58:15,690][0m Trial 171 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -35.0, 'Vmax': 38.5, 't_ref': 4.0, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.2, 'tau_w': 28.5, 'a': 218.0, 'rate_low': 21.0, 'rate_high': 45.0}.[0m
+2021-04-21 15:58:16.450100: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 15:58:53.749447: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 15:59:20.492843: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 15:59:45,789][0m Trial 172 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -49.5, 'Vmax': 14.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 56.0, 'R_adp': 0.2, 'tau_w': 484.0, 'a': 18.0, 'rate_low': 22.5, 'rate_high': 44.5}.[0m
+2021-04-21 15:59:46.523970: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:00:24.404527: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:00:51.109845: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:01:17,080][0m Trial 173 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -48.0, 'Vth': -58.0, 'Vmax': 18.0, 't_ref': 3.0, 'R': 0.1, 'tau_m': 180.0, 'R_adp': 0.2, 'tau_w': 391.0, 'a': 316.0, 'rate_low': 16.5, 'rate_high': 36.5}.[0m
+2021-04-21 16:01:17.840934: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:01:55.569434: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:02:23.046348: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:02:48,961][0m Trial 174 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.0, 'Vth': -39.0, 'Vmax': 11.5, 't_ref': 10.0, 'R': 0.5, 'tau_m': 89.0, 'R_adp': 0.1, 'tau_w': 213.0, 'a': 472.0, 'rate_low': 49.5, 'rate_high': 50.0}.[0m
+2021-04-21 16:02:49.721150: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 36.0
+2021-04-21 16:03:27.306636: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:03:54.253027: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 8.14912 9.46
+[32m[I 2021-04-21 16:04:19,809][0m Trial 175 finished with values: [8.14912, 9.46] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 37.5, 't_ref': 3.0, 'R': 0.30000000000000004, 'tau_m': 183.5, 'R_adp': 1.0, 'tau_w': 414.0, 'a': 269.0, 'rate_low': 25.5, 'rate_high': 49.0}.[0m
+2021-04-21 16:04:20.618057: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 251.0
+2021-04-21 16:04:58.765096: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:05:25.653691: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00084 23.17
+[32m[I 2021-04-21 16:05:52,714][0m Trial 176 finished with values: [0.00084, 23.17] with parameters: {'Vahp': -39.0, 'Vth': -26.0, 'Vmax': 20.5, 't_ref': 1.5, 'R': 0.6, 'tau_m': 422.5, 'R_adp': 0.5, 'tau_w': 28.5, 'a': 186.0, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 16:05:53.439033: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 167.0
+2021-04-21 16:06:31.654244: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:06:58.431408: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.01588 17.36
+[32m[I 2021-04-21 16:07:25,382][0m Trial 177 finished with values: [0.01588, 17.36] with parameters: {'Vahp': -47.0, 'Vth': -44.5, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 379.5, 'R_adp': 0.4, 'tau_w': 152.5, 'a': 105.0, 'rate_low': 48.0, 'rate_high': 49.0}.[0m
+2021-04-21 16:07:26.127621: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:08:04.494824: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:08:32.467028: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:09:00,016][0m Trial 178 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 11.5, 't_ref': 7.5, 'R': 0.9, 'tau_m': 22.0, 'R_adp': 0.7000000000000001, 'tau_w': 391.0, 'a': 18.5, 'rate_low': 41.5, 'rate_high': 36.5}.[0m
+2021-04-21 16:09:00.722936: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:09:39.172774: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:10:06.649417: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:10:33,473][0m Trial 179 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 18.0, 't_ref': 17.5, 'R': 0.9, 'tau_m': 16.0, 'R_adp': 0.5, 'tau_w': 494.0, 'a': 53.0, 'rate_low': 15.5, 'rate_high': 22.0}.[0m
+2021-04-21 16:10:34.246503: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 16:11:13.235411: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:11:41.508756: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:12:08,902][0m Trial 180 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -33.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 232.0, 'R_adp': 0.7000000000000001, 'tau_w': 42.0, 'a': 269.0, 'rate_low': 48.0, 'rate_high': 50.0}.[0m
+2021-04-21 16:12:09.671590: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:12:48.806350: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:13:16.649131: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:13:44,286][0m Trial 181 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -25.0, 'Vmax': 31.0, 't_ref': 14.5, 'R': 0.7000000000000001, 'tau_m': 126.0, 'R_adp': 0.5, 'tau_w': 167.5, 'a': 426.5, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 16:13:45.027850: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 97.0
+2021-04-21 16:14:24.305974: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:14:53.674238: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 3.76564 24.37
+[32m[I 2021-04-21 16:15:22,213][0m Trial 182 finished with values: [3.76564, 24.37] with parameters: {'Vahp': -60.0, 'Vth': -49.5, 'Vmax': 34.5, 't_ref': 1.5, 'R': 0.6, 'tau_m': 422.5, 'R_adp': 0.9, 'tau_w': 494.0, 'a': 186.0, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 16:15:22.937032: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 50.0
+2021-04-21 16:16:03.144905: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:16:32.330353: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.05215 5.31
+[32m[I 2021-04-21 16:17:00,148][0m Trial 183 finished with values: [0.05215, 5.31] with parameters: {'Vahp': -55.5, 'Vth': -29.5, 'Vmax': 31.0, 't_ref': 19.0, 'R': 0.8, 'tau_m': 129.0, 'R_adp': 0.8, 'tau_w': 228.0, 'a': 56.0, 'rate_low': 11.5, 'rate_high': 16.0}.[0m
+2021-04-21 16:17:00.899147: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:17:39.740088: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:18:09.554697: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:18:37,933][0m Trial 184 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -45.0, 'Vmax': 36.0, 't_ref': 13.5, 'R': 0.8, 'tau_m': 22.0, 'R_adp': 0.7000000000000001, 'tau_w': 318.5, 'a': 18.5, 'rate_low': 34.5, 'rate_high': 36.0}.[0m
+2021-04-21 16:18:38.681144: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:19:18.715947: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:19:48.247629: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:20:16,898][0m Trial 185 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.0, 'Vth': -45.0, 'Vmax': 27.5, 't_ref': 15.0, 'R': 0.8, 'tau_m': 146.0, 'R_adp': 0.2, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 48.5, 'rate_high': 50.0}.[0m
+2021-04-21 16:20:17.638677: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 183.0
+2021-04-21 16:20:57.639055: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:21:27.312757: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00635 6.98
+[32m[I 2021-04-21 16:21:55,851][0m Trial 186 finished with values: [0.00635, 6.98] with parameters: {'Vahp': -45.5, 'Vth': -29.5, 'Vmax': 39.0, 't_ref': 2.5, 'R': 0.4, 'tau_m': 320.0, 'R_adp': 0.5, 'tau_w': 152.5, 'a': 105.0, 'rate_low': 28.0, 'rate_high': 29.5}.[0m
+2021-04-21 16:21:56.590719: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 987.0
+2021-04-21 16:22:37.091135: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:23:06.722308: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:23:35,226][0m Trial 187 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -26.0, 'Vmax': 26.0, 't_ref': 1.5, 'R': 0.1, 'tau_m': 422.5, 'R_adp': 0.1, 'tau_w': 28.5, 'a': 269.0, 'rate_low': 42.5, 'rate_high': 35.5}.[0m
+2021-04-21 16:23:35.975792: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:24:17.035291: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:24:47.810849: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:25:16,526][0m Trial 188 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -35.0, 'Vmax': 16.0, 't_ref': 3.5, 'R': 0.8, 'tau_m': 232.5, 'R_adp': 0.1, 'tau_w': 32.5, 'a': 331.5, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 16:25:17.257723: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:25:57.448883: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:26:27.314388: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:26:56,628][0m Trial 189 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -56.0, 'Vmax': 11.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 342.0, 'a': 345.0, 'rate_low': 42.5, 'rate_high': 40.0}.[0m
+2021-04-21 16:26:57.380262: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:27:37.607629: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:28:07.839912: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:28:36,971][0m Trial 190 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -56.5, 'Vmax': 22.0, 't_ref': 3.0, 'R': 0.7000000000000001, 'tau_m': 168.0, 'R_adp': 0.2, 'tau_w': 271.0, 'a': 269.0, 'rate_low': 8.5, 'rate_high': 44.0}.[0m
+2021-04-21 16:28:37.793178: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 200.0
+2021-04-21 16:29:18.335278: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:29:48.656531: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.81823 52.6
+[32m[I 2021-04-21 16:30:18,250][0m Trial 191 finished with values: [0.81823, 52.6] with parameters: {'Vahp': -45.5, 'Vth': -45.0, 'Vmax': 39.0, 't_ref': 3.5, 'R': 1.0, 'tau_m': 320.0, 'R_adp': 0.1, 'tau_w': 229.5, 'a': 459.5, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 16:30:19.013945: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 992.0
+2021-04-21 16:31:00.214097: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:31:30.301853: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:31:59,752][0m Trial 192 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -35.5, 'Vmax': 36.0, 't_ref': 11.0, 'R': 0.1, 'tau_m': 382.0, 'R_adp': 1.0, 'tau_w': 228.0, 'a': 459.5, 'rate_low': 34.5, 'rate_high': 37.5}.[0m
+2021-04-21 16:32:00.503573: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 334.0
+2021-04-21 16:32:41.186776: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:33:11.637675: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00289 13.82
+[32m[I 2021-04-21 16:33:41,489][0m Trial 193 finished with values: [0.00289, 13.82] with parameters: {'Vahp': -55.5, 'Vth': -38.5, 'Vmax': 20.5, 't_ref': 1.5, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.8, 'tau_w': 120.0, 'a': 56.0, 'rate_low': 11.5, 'rate_high': 31.5}.[0m
+2021-04-21 16:33:42.308712: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:34:23.116007: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:34:54.080232: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:35:23,937][0m Trial 194 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -33.0, 'Vmax': 37.5, 't_ref': 4.5, 'R': 0.5, 'tau_m': 42.5, 'R_adp': 0.8, 'tau_w': 414.0, 'a': 269.0, 'rate_low': 25.0, 'rate_high': 49.0}.[0m
+2021-04-21 16:35:24.692982: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 184.0
+2021-04-21 16:36:06.249273: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:36:36.573836: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 14.84697 33.71
+[32m[I 2021-04-21 16:37:06,373][0m Trial 195 finished with values: [14.84697, 33.71] with parameters: {'Vahp': -45.5, 'Vth': -39.0, 'Vmax': 11.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 84.5, 'R_adp': 0.7000000000000001, 'tau_w': 220.0, 'a': 229.5, 'rate_low': 42.5, 'rate_high': 49.0}.[0m
+2021-04-21 16:37:07.147135: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:37:49.110305: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:38:19.202724: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:38:49,097][0m Trial 196 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 40.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 84.5, 'R_adp': 0.30000000000000004, 'tau_w': 391.0, 'a': 345.0, 'rate_low': 48.0, 'rate_high': 40.0}.[0m
+2021-04-21 16:38:49.898061: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:39:31.945324: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:40:00.982432: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:40:30,966][0m Trial 197 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -58.0, 'Vmax': 26.0, 't_ref': 15.0, 'R': 0.9, 'tau_m': 484.0, 'R_adp': 0.6, 'tau_w': 125.0, 'a': 218.0, 'rate_low': 11.5, 'rate_high': 35.5}.[0m
+2021-04-21 16:40:31.794227: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:41:14.016156: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:41:43.870565: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:42:14,684][0m Trial 198 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -53.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 0.5, 'tau_m': 121.0, 'R_adp': 0.5, 'tau_w': 152.5, 'a': 229.5, 'rate_low': 48.5, 'rate_high': 49.0}.[0m
+2021-04-21 16:42:15.515569: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 250.0
+2021-04-21 16:42:57.993527: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:43:27.193381: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00059 30.0
+[32m[I 2021-04-21 16:43:57,362][0m Trial 199 finished with values: [0.00059, 30.0] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 20.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 16.5, 'R_adp': 1.0, 'tau_w': 28.5, 'a': 276.0, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 16:43:58.238795: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 53.0
+2021-04-21 16:44:40.926626: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:45:10.928019: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.02587 20.51
+[32m[I 2021-04-21 16:45:41,617][0m Trial 200 finished with values: [0.02587, 20.51] with parameters: {'Vahp': -47.0, 'Vth': -45.5, 'Vmax': 18.0, 't_ref': 17.5, 'R': 0.9, 'tau_m': 232.0, 'R_adp': 0.30000000000000004, 'tau_w': 494.0, 'a': 53.0, 'rate_low': 41.5, 'rate_high': 22.0}.[0m
+2021-04-21 16:45:42.494764: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:46:25.388402: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:46:54.833791: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:47:25,467][0m Trial 201 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -27.0, 'Vth': -49.5, 'Vmax': 22.0, 't_ref': 11.0, 'R': 0.9, 'tau_m': 297.0, 'R_adp': 0.2, 'tau_w': 229.5, 'a': 487.5, 'rate_low': 8.0, 'rate_high': 19.5}.[0m
+2021-04-21 16:47:26.351301: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 250.0
+2021-04-21 16:48:09.079635: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:48:39.294757: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00059 30.0
+[32m[I 2021-04-21 16:49:09,999][0m Trial 202 finished with values: [0.00059, 30.0] with parameters: {'Vahp': -45.5, 'Vth': -35.5, 'Vmax': 20.5, 't_ref': 3.0, 'R': 0.6, 'tau_m': 16.5, 'R_adp': 1.0, 'tau_w': 28.5, 'a': 276.0, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 16:49:10.870311: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:49:53.805664: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:50:24.072932: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:50:54,962][0m Trial 203 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.0, 'Vth': -35.0, 'Vmax': 16.0, 't_ref': 3.5, 'R': 0.8, 'tau_m': 0.5, 'R_adp': 0.2, 'tau_w': 32.5, 'a': 459.5, 'rate_low': 50.0, 'rate_high': 50.0}.[0m
+2021-04-21 16:50:55.856099: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:51:39.066123: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:52:09.611529: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:52:40,004][0m Trial 204 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -20.0, 'Vth': -35.5, 'Vmax': 36.0, 't_ref': 11.0, 'R': 0.7000000000000001, 'tau_m': 168.0, 'R_adp': 1.0, 'tau_w': 228.0, 'a': 459.5, 'rate_low': 8.5, 'rate_high': 37.5}.[0m
+2021-04-21 16:52:40.875448: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:53:23.943028: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:53:54.765955: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:54:25,724][0m Trial 205 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -40.5, 'Vth': -53.5, 'Vmax': 20.5, 't_ref': 2.5, 'R': 1.0, 'tau_m': 390.5, 'R_adp': 0.2, 'tau_w': 152.5, 'a': 459.5, 'rate_low': 48.0, 'rate_high': 49.0}.[0m
+2021-04-21 16:54:26.631339: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:55:10.089618: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:55:40.711879: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:56:11,710][0m Trial 206 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -49.5, 'Vmax': 14.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 56.0, 'R_adp': 0.2, 'tau_w': 494.0, 'a': 18.0, 'rate_low': 15.5, 'rate_high': 22.0}.[0m
+2021-04-21 16:56:12.601102: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 16:56:56.957322: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:57:27.158723: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:57:57,451][0m Trial 207 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -53.5, 'Vmax': 20.5, 't_ref': 15.0, 'R': 0.5, 'tau_m': 121.0, 'R_adp': 0.9, 'tau_w': 125.0, 'a': 218.0, 'rate_low': 11.5, 'rate_high': 49.0}.[0m
+2021-04-21 16:57:58.264339: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 16:58:41.837961: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 16:59:11.827166: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 16:59:42,189][0m Trial 208 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -45.0, 'Vmax': 16.0, 't_ref': 15.0, 'R': 0.2, 'tau_m': 232.5, 'R_adp': 0.1, 'tau_w': 229.5, 'a': 58.0, 'rate_low': 36.5, 'rate_high': 50.0}.[0m
+2021-04-21 16:59:43.007703: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:00:26.941328: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:00:56.980235: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:01:26,825][0m Trial 209 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -27.0, 'Vth': -45.5, 'Vmax': 26.0, 't_ref': 11.0, 'R': 0.1, 'tau_m': 4.5, 'R_adp': 0.1, 'tau_w': 152.5, 'a': 467.5, 'rate_low': 3.0, 'rate_high': 40.0}.[0m
+2021-04-21 17:01:27.658166: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:02:11.739234: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:02:42.255139: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:03:13,417][0m Trial 210 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -36.0, 'Vth': -49.5, 'Vmax': 40.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 84.5, 'R_adp': 0.6, 'tau_w': 391.0, 'a': 345.0, 'rate_low': 48.0, 'rate_high': 40.0}.[0m
+2021-04-21 17:03:14.218073: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 999.0
+2021-04-21 17:03:58.165025: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:04:29.673769: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:05:00,684][0m Trial 211 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -28.5, 'Vmax': 18.0, 't_ref': 13.5, 'R': 0.9, 'tau_m': 366.5, 'R_adp': 0.2, 'tau_w': 376.5, 'a': 316.0, 'rate_low': 28.0, 'rate_high': 27.0}.[0m
+2021-04-21 17:05:01.494339: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 250.0
+2021-04-21 17:05:44.686494: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:06:16.165310: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.00107 18.66
+[32m[I 2021-04-21 17:06:47,150][0m Trial 212 finished with values: [0.00107, 18.66] with parameters: {'Vahp': -43.5, 'Vth': -37.5, 'Vmax': 26.0, 't_ref': 3.0, 'R': 0.7000000000000001, 'tau_m': 320.0, 'R_adp': 0.5, 'tau_w': 42.0, 'a': 316.0, 'rate_low': 29.5, 'rate_high': 29.5}.[0m
+2021-04-21 17:06:47.956325: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:07:31.494063: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:08:03.339183: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:08:34,550][0m Trial 213 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -23.5, 'Vth': -35.0, 'Vmax': 16.0, 't_ref': 4.0, 'R': 0.9, 'tau_m': 232.5, 'R_adp': 0.1, 'tau_w': 494.0, 'a': 487.5, 'rate_low': 36.5, 'rate_high': 45.5}.[0m
+2021-04-21 17:08:35.379704: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:09:19.377798: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:09:50.848653: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:10:22,543][0m Trial 214 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 14.0, 't_ref': 5.0, 'R': 0.7000000000000001, 'tau_m': 56.0, 'R_adp': 0.7000000000000001, 'tau_w': 391.0, 'a': 18.0, 'rate_low': 22.5, 'rate_high': 36.5}.[0m
+2021-04-21 17:10:23.450087: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 145.0
+2021-04-21 17:11:07.704158: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:11:39.381650: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 7.68921 30.8
+[32m[I 2021-04-21 17:12:10,285][0m Trial 215 finished with values: [7.68921, 30.8] with parameters: {'Vahp': -55.5, 'Vth': -50.5, 'Vmax': 31.0, 't_ref': 1.5, 'R': 0.9, 'tau_m': 129.0, 'R_adp': 0.7000000000000001, 'tau_w': 376.5, 'a': 302.0, 'rate_low': 28.0, 'rate_high': 43.0}.[0m
+2021-04-21 17:12:11.218761: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 989.0
+2021-04-21 17:12:56.258088: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:13:28.286226: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:13:59,896][0m Trial 216 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -29.5, 'Vmax': 20.5, 't_ref': 1.5, 'R': 0.1, 'tau_m': 379.5, 'R_adp': 0.1, 'tau_w': 28.5, 'a': 105.0, 'rate_low': 42.5, 'rate_high': 35.5}.[0m
+2021-04-21 17:14:00.729133: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 65.0
+2021-04-21 17:14:46.025403: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:15:18.610780: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 7.64753 10.57
+[32m[I 2021-04-21 17:15:50,795][0m Trial 217 finished with values: [7.64753, 10.57] with parameters: {'Vahp': -49.5, 'Vth': -35.0, 'Vmax': 16.0, 't_ref': 4.5, 'R': 0.30000000000000004, 'tau_m': 232.5, 'R_adp': 0.7000000000000001, 'tau_w': 266.0, 'a': 269.0, 'rate_low': 36.5, 'rate_high': 45.5}.[0m
+2021-04-21 17:15:51.697912: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:16:37.837528: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:17:10.277057: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:17:42,530][0m Trial 218 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.0, 'Vth': -29.5, 'Vmax': 27.5, 't_ref': 15.0, 'R': 0.8, 'tau_m': 146.0, 'R_adp': 0.2, 'tau_w': 120.0, 'a': 459.5, 'rate_low': 11.5, 'rate_high': 31.5}.[0m
+2021-04-21 17:17:43.354285: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 995.0
+2021-04-21 17:18:28.850422: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:19:01.255235: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:19:33,528][0m Trial 219 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -35.5, 'Vth': -39.0, 'Vmax': 24.5, 't_ref': 6.0, 'R': 0.1, 'tau_m': 265.5, 'R_adp': 0.5, 'tau_w': 474.5, 'a': 362.5, 'rate_low': 49.0, 'rate_high': 28.5}.[0m
+2021-04-21 17:19:34.390725: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 129.0
+2021-04-21 17:20:19.927329: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:20:52.856984: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.0434 4.57
+[32m[I 2021-04-21 17:21:25,499][0m Trial 220 finished with values: [0.0434, 4.57] with parameters: {'Vahp': -45.5, 'Vth': -25.0, 'Vmax': 20.5, 't_ref': 1.0, 'R': 0.4, 'tau_m': 379.5, 'R_adp': 0.5, 'tau_w': 167.5, 'a': 288.5, 'rate_low': 40.0, 'rate_high': 42.0}.[0m
+2021-04-21 17:21:26.311673: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:22:12.554543: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:22:45.262124: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:23:18,063][0m Trial 221 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -49.5, 'Vmax': 40.0, 't_ref': 7.5, 'R': 0.8, 'tau_m': 84.5, 'R_adp': 0.1, 'tau_w': 391.0, 'a': 345.0, 'rate_low': 48.0, 'rate_high': 40.0}.[0m
+2021-04-21 17:23:18.965981: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:24:04.986414: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:24:37.838417: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:25:09,429][0m Trial 222 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -25.5, 'Vth': -45.5, 'Vmax': 22.0, 't_ref': 2.5, 'R': 0.9, 'tau_m': 4.5, 'R_adp': 0.8, 'tau_w': 152.5, 'a': 467.5, 'rate_low': 29.5, 'rate_high': 40.0}.[0m
+2021-04-21 17:25:10.328439: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:25:56.170011: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:26:28.513672: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:27:00,786][0m Trial 223 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -47.0, 'Vth': -58.0, 'Vmax': 26.0, 't_ref': 7.0, 'R': 0.9, 'tau_m': 197.0, 'R_adp': 0.6, 'tau_w': 306.0, 'a': 499.5, 'rate_low': 29.5, 'rate_high': 38.5}.[0m
+2021-04-21 17:27:01.644975: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:27:47.929730: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:28:21.251320: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:28:54,010][0m Trial 224 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -26.5, 'Vth': -44.5, 'Vmax': 18.0, 't_ref': 15.0, 'R': 1.0, 'tau_m': 180.0, 'R_adp': 0.2, 'tau_w': 391.0, 'a': 35.0, 'rate_low': 16.5, 'rate_high': 42.5}.[0m
+2021-04-21 17:28:54.838411: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:29:41.376822: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:30:14.684465: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:30:47,187][0m Trial 225 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -24.0, 'Vth': -47.5, 'Vmax': 22.0, 't_ref': 7.5, 'R': 1.0, 'tau_m': 22.0, 'R_adp': 0.7000000000000001, 'tau_w': 391.0, 'a': 18.5, 'rate_low': 38.5, 'rate_high': 42.5}.[0m
+2021-04-21 17:30:48.103347: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 994.0
+2021-04-21 17:31:34.428358: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:32:07.631559: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:32:39,941][0m Trial 226 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -28.0, 'Vth': -33.0, 'Vmax': 37.5, 't_ref': 11.0, 'R': 0.1, 'tau_m': 236.5, 'R_adp': 0.7000000000000001, 'tau_w': 228.0, 'a': 459.5, 'rate_low': 48.0, 'rate_high': 50.0}.[0m
+2021-04-21 17:32:40.807096: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 127.0
+2021-04-21 17:33:26.812223: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:34:00.830567: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.02686 1.57
+[32m[I 2021-04-21 17:34:33,887][0m Trial 227 finished with values: [0.02686, 1.57] with parameters: {'Vahp': -43.5, 'Vth': -37.5, 'Vmax': 18.0, 't_ref': 3.0, 'R': 0.1, 'tau_m': 320.0, 'R_adp': 0.2, 'tau_w': 70.0, 'a': 316.0, 'rate_low': 16.5, 'rate_high': 27.0}.[0m
+2021-04-21 17:34:34.796707: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+maxFreq at 10nA: 1000.0
+2021-04-21 17:35:21.497826: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-21 17:35:55.744932: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+mse and spike frequency: 0.12656 0.0
+[32m[I 2021-04-21 17:36:29,148][0m Trial 228 finished with values: [0.12656, 0.0] with parameters: {'Vahp': -45.5, 'Vth': -47.5, 'Vmax': 11.5, 't_ref': 3.0, 'R': 0.4, 'tau_m': 22.0, 'R_adp': 1.0, 'tau_w': 28.5, 'a': 18.5, 'rate_low': 42.5, 'rate_high': 45.0}.[0m
+2021-04-21 17:36:30.035909: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
